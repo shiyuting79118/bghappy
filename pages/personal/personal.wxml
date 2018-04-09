@@ -1,0 +1,39 @@
+<view class="container">
+  <view>
+    <view class='head-portrait'>
+      <image src="../../images/logo.jpeg" mode="scaleToFill" class="head-image"></image>
+      <view class='head-name'>时玉婷</view>
+      <view class='head-sex'>女</view>
+      <view class="fa fa-ellipsis-v head-more" bindtap='more'></view>
+    </view>
+    <view class='body'>
+      <view class="fa fa-list-ul my" bindtap='myWorks'>
+        <label>我的作品</label>
+        <label>12</label>
+        <view class='fa fa-angle-right right-more'></view>
+      </view>
+      <view class="fa fa-commenting-o my" bindtap='myWorks'>
+        <label>我的消息</label>
+        <label>12</label>
+        <view class='fa fa-angle-right right-more'></view>
+      </view>
+      <view class="fa fa-google-wallet my" bindtap='myWorks'>
+        <label>我的钱包</label>
+        <label>12</label>
+        <view class='fa fa-angle-right right-more'></view>
+      </view>
+      <view class="fa fa-download my" bindtap='myWorks'>
+        <label>导出来宾</label>
+        <view class='fa fa-angle-right right-more'></view>
+      </view>
+      <view class="fa fa-history my" bindtap='myWorks'>
+        <label>最近使用模版</label>
+        <view class='fa fa-angle-right right-more'></view>
+      </view>
+      <view class=" fa fa-exclamation-circle my" bindtap='myWorks'>
+        <label>我要反馈</label>
+        <view class='fa fa-angle-right right-more'></view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+/**app.wxss**/
+@import './fontAwesome.wxss';
+.container {
+  font-size: 14px;
+  color: #4f4f4f;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
