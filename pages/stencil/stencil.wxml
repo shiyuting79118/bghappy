@@ -1,0 +1,17 @@
+<!--pages/stencil/stencil.wxml-->
+<view class="container">
+  <view class='stencil-title'>
+   <text class="{{tabnum==0?'stencil-title-tap':''}}" bindtap='tapTitleBar' data-index="0">免费模版</text>
+   <text class="{{tabnum==1?'stencil-title-tap':''}}" bindtap='tapTitleBar' data-index="1">付费模版</text>
+  </view>
+  <view >
+    <view class='stencil-body'  wx:for="{{array}}" wx:for-item="item">
+      
+      <view>
+        <!-- <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{src}}"></image> -->
+          <image style="width: 100px; height: 100px;" src="../../images/logo.jpeg"></image> 
+      </view>
+      <view>卡通可爱</view>
+    </view>
+  </view>
+</view>

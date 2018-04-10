@@ -52,9 +52,13 @@ Page({
     })
   },
   personal:function(){
-    console.log(111);
     wx.navigateTo({
       url: '/pages/personal/personal'
+    })
+  },
+  make: function () {
+    wx.navigateTo({
+      url: '/pages/stencil/stencil'
     })
   }
 })

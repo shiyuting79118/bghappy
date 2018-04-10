@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.93",
 	"appid": "wxc7f0e1aa44ef67e0",
-	"projectname": "happy",
+	"projectname": "bghappy",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
@@ -30,5 +30,4 @@
 			"list": []
 		}
 	}
-  
 }
