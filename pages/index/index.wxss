@@ -17,17 +17,17 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 400rpx;
 }
 
 .personal {
   position: absolute;
-  left: 320px;
-  top: 20px;
+  left: 640rpx;
+  top: 40rpx;
 }
 
 .index_button{
-  margin-top: 20px;
-  width: 130px;
-  height: 50px;
+  margin-top: 40rpx;
+  width: 260rpx;
+  height: 100rpx;
 }

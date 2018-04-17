@@ -1,24 +1,30 @@
 /* pages/stencil/stencil.wxss */
 .stencil-title{
-  font-size:14px;
+  font-size:28rpx;
   position: absolute;
   top: 0px;
-  border-top: 1px solid #ccc;
+  border-top: 2rpx solid #ccc;
   width: 100%;
 }
 .stencil-title text{
   float: left;
   width: 49%;
-  border-bottom: 1px solid #ccc;
-  height: 40px;
-  line-height: 40px;
+  border-bottom: 2rpx solid #ccc;
+  height: 80rpx;
+  line-height: 80rpx;
   text-align: center;
 }
 .stencil-title-tap{
   color: #5291f0;
-  border-bottom: 2px;
+  border-bottom: 4rpx;
 }
 .stencil-body{
-  flex: left;
-  width: 40%
+ display: -webkit-inline-flex;
+ margin-top: -100rpx;
+}
+.stencil-body view{
+  border: 1rpx #999 solid;
+  width: 200rpx;
+  height: 400rpx;
+  display: inline-block
 }

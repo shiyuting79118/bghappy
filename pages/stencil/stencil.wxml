@@ -5,13 +5,11 @@
    <text class="{{tabnum==1?'stencil-title-tap':''}}" bindtap='tapTitleBar' data-index="1">付费模版</text>
   </view>
   <view >
-    <view class='stencil-body'  wx:for="{{array}}" wx:for-item="item">
-      
-      <view>
-        <!-- <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{src}}"></image> -->
+    <view class='stencil-body'  >
+      <view wx:for="{{array}}" wx:for-item="item" wx:for-key="*this">
           <image style="width: 100px; height: 100px;" src="../../images/logo.jpeg"></image> 
+          <view>卡通可爱</view>
       </view>
-      <view>卡通可爱</view>
     </view>
   </view>
 </view>
