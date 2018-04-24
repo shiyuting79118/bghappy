@@ -1,7 +1,7 @@
 /**app.wxss**/
 @import './fontAwesome.wxss';
 .container {
-  font-size: 14px;
+  font-size: 28rpx;
   color: #4f4f4f;
   height: 100%;
   display: flex;

@@ -1,12 +1,24 @@
 /* pages/stencil/stencil.wxss */
-.stencil-title{
-  font-size:28rpx;
+
+.stencil {
+  font-size: 28rpx;
+  color: #4f4f4f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.stencil-title {
+  font-size: 28rpx;
   position: absolute;
-  top: 0px;
+  top: 0rpx;
   border-top: 2rpx solid #ccc;
   width: 100%;
 }
-.stencil-title text{
+
+.stencil-title text {
   float: left;
   width: 49%;
   border-bottom: 2rpx solid #ccc;
@@ -14,17 +26,38 @@
   line-height: 80rpx;
   text-align: center;
 }
-.stencil-title-tap{
+
+.stencil-title-tap {
   color: #5291f0;
   border-bottom: 4rpx;
 }
-.stencil-body{
- display: -webkit-inline-flex;
- margin-top: -100rpx;
+
+.stencil-body {
+  display: -webkit-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content:center; */
+  margin-top: 90rpx;
 }
-.stencil-body view{
-  border: 1rpx #999 solid;
-  width: 200rpx;
+
+.stencil-item {
+  width: 40%;
+  border: 1rpx #ccc solid;
   height: 400rpx;
-  display: inline-block
+  padding-left: 10rpx;
+  margin: 2rpx auto;
+  border-top-left-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+}
+
+.stencil-item-title {
+  font-size: 24rpx;
+  margin-top: 100rpx;
+  width: 290rpx;
+  height: 50rpx;
+  background-color: #ccc;
+  opacity: 0.8;
+  line-height: 50rpx;
+  text-align: center;
+  vertical-align: center;
 }
